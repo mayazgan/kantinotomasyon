@@ -1,0 +1,13 @@
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\bin\x64\Debug\kantinveri.accdb
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\bin\x64\Debug\Kantin Otomasyonu.exe.config
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\bin\x64\Debug\Kantin Otomasyonu.exe
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\bin\x64\Debug\Kantin Otomasyonu.pdb
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin_Otomasyonu.adminpanel.resources
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin_Otomasyonu.giris.resources
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin_Otomasyonu.kullanicipanel.resources
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin_Otomasyonu.Properties.Resources.resources
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin Otomasyonu.csproj.GenerateResource.cache
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin Otomasyonu.exe
+C:\Users\yazga\source\repos\Kantin Otomasyonu\Kantin Otomasyonu\obj\x64\Debug\Kantin Otomasyonu.pdb

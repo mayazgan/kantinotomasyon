@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="kantinveriDataSet" targetNamespace="http://tempuri.org/kantinveriDataSet.xsd" xmlns:mstns="http://tempuri.org/kantinveriDataSet.xsd" xmlns="http://tempuri.org/kantinveriDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="kantinveriConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="kantinveriConnectionString (Settings)" PropertyReference="ApplicationSettings.Kantin_Otomasyonu.Properties.Settings.GlobalReference.Default.kantinveriConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="kullanicilarTableAdapter" GeneratorDataComponentClassName="kullanicilarTableAdapter" Name="kullanicilar" UserDataComponentName="kullanicilarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="kantinveriConnectionString (Settings)" DbObjectName="kullanicilar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT k_id, k_adi, k_sifre, k_yetki FROM kullanicilar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="urunlerTableAdapter" GeneratorDataComponentClassName="urunlerTableAdapter" Name="urunler" UserDataComponentName="urunlerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="kantinveriConnectionString (Settings)" DbObjectName="urunler" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT u_id, u_adi, u_ayrinti, u_fiyat FROM urunler</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="kantinveriDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="kantinveriDataSet" msprop:Generator_DataSetName="kantinveriDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kullanicilar" msprop:Generator_RowEvHandlerName="kullanicilarRowChangeEventHandler" msprop:Generator_RowDeletedName="kullanicilarRowDeleted" msprop:Generator_RowDeletingName="kullanicilarRowDeleting" msprop:Generator_RowEvArgName="kullanicilarRowChangeEvent" msprop:Generator_TablePropName="kullanicilar" msprop:Generator_RowChangedName="kullanicilarRowChanged" msprop:Generator_RowChangingName="kullanicilarRowChanging" msprop:Generator_TableClassName="kullanicilarDataTable" msprop:Generator_RowClassName="kullanicilarRow" msprop:Generator_TableVarName="tablekullanicilar" msprop:Generator_UserTableName="kullanicilar">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="urunler" msprop:Generator_RowEvHandlerName="urunlerRowChangeEventHandler" msprop:Generator_RowDeletedName="urunlerRowDeleted" msprop:Generator_RowDeletingName="urunlerRowDeleting" msprop:Generator_RowEvArgName="urunlerRowChangeEvent" msprop:Generator_TablePropName="urunler" msprop:Generator_RowChangedName="urunlerRowChanged" msprop:Generator_RowChangingName="urunlerRowChanging" msprop:Generator_TableClassName="urunlerDataTable" msprop:Generator_RowClassName="urunlerRow" msprop:Generator_TableVarName="tableurunler" msprop:Generator_UserTableName="urunler">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
