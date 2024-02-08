@@ -1,0 +1,10 @@
+Yetkili
+
+Kullanıcı Adı: admin
+Şifre: 12345
+
+
+Kullanıcı
+
+Kullanıcı Adı: admin123
+Şifre: ikinci
